@@ -1,0 +1,9 @@
+DEBUG = False
+CSRF_ENABLED = True
+SECRET_KEY = 'my_secret_key' # Set this to something random
+OTP_SECRET = 'my_opt_key' # Set this to something else random
+PAGE_SIZE = 25
+SQLALCHEMY_DATABASE_URI  = 'sqlite:////usr/local/slick/slick.db'
+#SQLALCHEMY_DATABASE_URI = 'postgresql://slick:slick@localhost/slick'
+#SQLALCHEMY_DATABASE_URI = 'mysql://slick:slick@localhost/slick'
+#SQLALCHEMY_MIGRATE_REPO = os.path.join(basedir, 'db_repository')
